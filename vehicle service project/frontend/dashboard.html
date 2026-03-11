@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Provider Dashboard</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f4f6f9;
+}
+
+.sidebar{
+width:220px;
+height:100vh;
+background:#2c3e50;
+position:fixed;
+color:white;
+padding-top:20px;
+}
+
+.sidebar h2{
+text-align:center;
+}
+
+.sidebar a{
+display:block;
+padding:12px;
+color:white;
+text-decoration:none;
+}
+
+.sidebar a:hover{
+background:#34495e;
+}
+
+.content{
+margin-left:220px;
+padding:30px;
+}
+
+.card{
+background:white;
+padding:20px;
+margin:15px;
+border-radius:8px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+display:inline-block;
+width:200px;
+text-align:center;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2>Provider</h2>
+
+<a href="request-list.html">Incoming Requests</a>
+<a href="active-jobs.html">Active Jobs</a>
+<a href="service-history.html">Service History</a>
+<a href="ratings.html">Ratings</a>
+<a href="provider-profile.html">Profile</a>
+
+</div>
+
+<div class="content">
+
+<h1>Provider Dashboard</h1>
+
+<a href="request-list.html" style="text-decoration:none;color:black;">
+<div class="card">
+<h3>New Requests</h3>
+<p>3 Available</p>
+</div>
+</a>
+
+<a href="active-jobs.html" style="text-decoration:none;color:black;">
+<div class="card">
+<h3>Active Jobs</h3>
+<p>2 Ongoing</p>
+</div>
+</a>
+
+<a href="service-history.html" style="text-decoration:none;color:black;">
+<div class="card">
+<h3>Completed Jobs</h3>
+<p>15 Completed</p>
+</div>
+</a>
+</div>
+
+</body>
+</html>
