@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Update Repair Status</title>
+
+<style>
+
+body{
+font-family:Arial;
+background: linear-gradient(135deg,#43cea2,#185a9d);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+margin:0;
+}
+
+.box{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+width:350px;
+}
+
+h2{
+text-align:center;
+margin-bottom:20px;
+}
+
+input,select{
+width:100%;
+padding:10px;
+margin-top:5px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+width:100%;
+padding:10px;
+background:#28a745;
+color:white;
+border:none;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1e7e34;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>Update Repair Status</h2>
+
+<label>Request ID</label>
+<input type="text" placeholder="Enter request id">
+
+<label>Status</label>
+
+<select>
+<option>Accepted</option>
+<option>Mechanic On The Way</option>
+<option>Repairing</option>
+<option>Completed</option>
+</select>
+
+<button onclick="alert('Status Updated Successfully')">
+Update Status
+</button>
+
+</div>
+
+</body>
+</html>
